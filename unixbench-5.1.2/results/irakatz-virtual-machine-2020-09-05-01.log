@@ -1,0 +1,1199 @@
+
+########################################################
+Dhrystone 2 using register variables -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/dhry2reg" 10 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 338806634
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.048965
+# pid: 38630
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 338371981
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004168
+# pid: 38639
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 334221401
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004909
+# pid: 38648
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 349318339
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004058
+# pid: 38657
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 349026047
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004287
+# pid: 38667
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 348885406
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004410
+# pid: 38678
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 349768402
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004141
+# pid: 38687
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 349365512
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004097
+# pid: 38696
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 329560760
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.049323
+# pid: 38705
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 291221066
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.032010
+# pid: 38716
+# status: 0
+
+*Dump score:  291221066.0
+*Dump score:  329560760.0
+*Dump score:  334221401.0
+Count score:  338371981.0
+Count score:  338806634.0
+Count score:  348885406.0
+Count score:  349026047.0
+Count score:  349318339.0
+Count score:  349365512.0
+Count score:  349768402.0
+
+>>>> Results of 1 copy
+>>>> score: 34582049.5214171
+>>>> time: 10.0105894285714
+>>>> iterations: 7
+
+
+########################################################
+Double-Precision Whetstone -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/whetstone-double"  2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.09 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.79 Seconds        625   Passes (x 100)
+
+Use 3486  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       781.434              0.086
+N2 floating point     -1.12187079889291219       775.132              0.604
+N3 if then else        1.00000000000000000                7247.037    0.050
+N4 fixed point        12.00000000000000000               274522495.992    0.000
+N5 sin,cos etc.        0.49902937281518261                  82.835    3.501
+N6 floating point      0.99999987890802811       606.988              3.098
+N7 assignments         3.00000000000000000                3634.589    0.177
+N8 exp,sqrt etc.       0.75100163018453692                  55.505    2.336
+
+MWIPS                                           3538.130              9.853
+
+
+# COUNT0: 3538.130
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.853
+# elapsed: 13.155777
+# pid: 38727
+# status: 0
+
+#### Pass 2
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.79 Seconds        625   Passes (x 100)
+
+Use 3496  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       782.152              0.086
+N2 floating point     -1.12187079889291219       774.630              0.607
+N3 if then else        1.00000000000000000                7276.888    0.050
+N4 fixed point        12.00000000000000000               367080021.282    0.000
+N5 sin,cos etc.        0.49902937281518261                  83.153    3.498
+N6 floating point      0.99999987890802811       609.186              3.096
+N7 assignments         3.00000000000000000                3626.601    0.178
+N8 exp,sqrt etc.       0.75100163018453692                  55.588    2.340
+
+MWIPS                                           3548.049              9.853
+
+
+# COUNT0: 3548.049
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.853
+# elapsed: 13.112530
+# pid: 38736
+# status: 0
+
+#### Pass 3
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.79 Seconds        625   Passes (x 100)
+
+Use 3495  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       781.423              0.086
+N2 floating point     -1.12187079889291219       775.332              0.606
+N3 if then else        1.00000000000000000                7248.713    0.050
+N4 fixed point        12.00000000000000000               275231264.023    0.000
+N5 sin,cos etc.        0.49902937281518261                  83.081    3.500
+N6 floating point      0.99999987890802811       609.224              3.094
+N7 assignments         3.00000000000000000                3638.881    0.177
+N8 exp,sqrt etc.       0.75100163018453692                  55.573    2.340
+
+MWIPS                                           3547.104              9.853
+
+
+# COUNT0: 3547.104
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.853
+# elapsed: 13.095092
+# pid: 38745
+# status: 0
+
+#### Pass 4
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.79 Seconds        625   Passes (x 100)
+
+Use 3496  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       781.671              0.086
+N2 floating point     -1.12187079889291219       770.697              0.610
+N3 if then else        1.00000000000000000                7283.773    0.050
+N4 fixed point        12.00000000000000000                   0.000    0.000
+N5 sin,cos etc.        0.49902937281518261                  83.237    3.494
+N6 floating point      0.99999987890802811       609.468              3.094
+N7 assignments         3.00000000000000000                3645.242    0.177
+N8 exp,sqrt etc.       0.75100163018453692                  55.519    2.342
+
+MWIPS                                           3547.995              9.853
+
+
+# COUNT0: 3547.995
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.853
+# elapsed: 13.095976
+# pid: 38756
+# status: 0
+
+#### Pass 5
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.80 Seconds        625   Passes (x 100)
+
+Use 3472  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       781.150              0.085
+N2 floating point     -1.12187079889291219       774.606              0.602
+N3 if then else        1.00000000000000000                7260.957    0.049
+N4 fixed point        12.00000000000000000               364559999.949    0.000
+N5 sin,cos etc.        0.49902937281518261                  83.124    3.475
+N6 floating point      0.99999987890802811       608.329              3.079
+N7 assignments         3.00000000000000000                3605.692    0.178
+N8 exp,sqrt etc.       0.75100163018453692                  55.361    2.333
+
+MWIPS                                           3542.147              9.802
+
+
+# COUNT0: 3542.147
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.802
+# elapsed: 13.081702
+# pid: 38765
+# status: 0
+
+#### Pass 6
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.82 Seconds        625   Passes (x 100)
+
+Use 3433  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       780.958              0.084
+N2 floating point     -1.12187079889291219       775.646              0.595
+N3 if then else        1.00000000000000000                7254.742    0.049
+N4 fixed point        12.00000000000000000               270348735.992    0.000
+N5 sin,cos etc.        0.49902937281518261                  82.796    3.450
+N6 floating point      0.99999987890802811       609.722              3.037
+N7 assignments         3.00000000000000000                3631.307    0.175
+N8 exp,sqrt etc.       0.75100163018453692                  55.213    2.313
+
+MWIPS                                           3538.167              9.703
+
+
+# COUNT0: 3538.167
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.703
+# elapsed: 12.989263
+# pid: 38774
+# status: 0
+
+#### Pass 7
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.08 Seconds         25   Passes (x 100)
+       0.37 Seconds        125   Passes (x 100)
+       1.80 Seconds        625   Passes (x 100)
+
+Use 3478  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       754.389              0.089
+N2 floating point     -1.12187079889291219       771.649              0.606
+N3 if then else        1.00000000000000000                7268.070    0.050
+N4 fixed point        12.00000000000000000               273892511.992    0.000
+N5 sin,cos etc.        0.49902937281518261                  82.512    3.507
+N6 floating point      0.99999987890802811       607.884              3.086
+N7 assignments         3.00000000000000000                3644.032    0.176
+N8 exp,sqrt etc.       0.75100163018453692                  55.523    2.330
+
+MWIPS                                           3533.260              9.844
+
+
+# COUNT0: 3533.260
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.844
+# elapsed: 13.397695
+# pid: 38783
+# status: 0
+
+#### Pass 8
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.80 Seconds        625   Passes (x 100)
+
+Use 3478  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       780.440              0.086
+N2 floating point     -1.12187079889291219       774.124              0.604
+N3 if then else        1.00000000000000000                7171.062    0.050
+N4 fixed point        12.00000000000000000               365190016.003    0.000
+N5 sin,cos etc.        0.49902937281518261                  82.780    3.496
+N6 floating point      0.99999987890802811       608.882              3.081
+N7 assignments         3.00000000000000000                3642.999    0.176
+N8 exp,sqrt etc.       0.75100163018453692                  55.376    2.336
+
+MWIPS                                           3538.436              9.829
+
+
+# COUNT0: 3538.436
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.829
+# elapsed: 13.161048
+# pid: 38794
+# status: 0
+
+#### Pass 9
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.79 Seconds        625   Passes (x 100)
+
+Use 3492  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       780.439              0.086
+N2 floating point     -1.12187079889291219       773.534              0.607
+N3 if then else        1.00000000000000000                7237.994    0.050
+N4 fixed point        12.00000000000000000               366660010.615    0.000
+N5 sin,cos etc.        0.49902937281518261                  82.876    3.506
+N6 floating point      0.99999987890802811       607.344              3.101
+N7 assignments         3.00000000000000000                3644.979    0.177
+N8 exp,sqrt etc.       0.75100163018453692                  55.327    2.348
+
+MWIPS                                           3536.366              9.875
+
+
+# COUNT0: 3536.366
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.875
+# elapsed: 13.121826
+# pid: 38803
+# status: 0
+
+#### Pass 10
+
+Calibrate
+       0.00 Seconds          1   Passes (x 100)
+       0.01 Seconds          5   Passes (x 100)
+       0.07 Seconds         25   Passes (x 100)
+       0.36 Seconds        125   Passes (x 100)
+       1.80 Seconds        625   Passes (x 100)
+
+Use 3472  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744       780.587              0.085
+N2 floating point     -1.12187079889291219       771.438              0.605
+N3 if then else        1.00000000000000000                6742.949    0.053
+N4 fixed point        12.00000000000000000               364560000.057    0.000
+N5 sin,cos etc.        0.49902937281518261                  80.006    3.611
+N6 floating point      0.99999987890802811       605.174              3.095
+N7 assignments         3.00000000000000000                3595.367    0.178
+N8 exp,sqrt etc.       0.75100163018453692                  55.476    2.328
+
+MWIPS                                           3487.526              9.955
+
+
+# COUNT0: 3487.526
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.955
+# elapsed: 13.214832
+# pid: 38812
+# status: 0
+
+*Dump score:       3487.5
+*Dump score:       3533.3
+*Dump score:       3536.4
+Count score:       3538.1
+Count score:       3538.2
+Count score:       3538.4
+Count score:       3542.1
+Count score:       3547.1
+Count score:       3548.0
+Count score:       3548.0
+
+>>>> Results of 1 copy
+>>>> score: 3542.85840551152
+>>>> time: 9.82085714285714
+>>>> iterations: 7
+
+
+########################################################
+Execl Throughput -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/execl" 30 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 28300
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.149457
+# pid: 38823
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 22101
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.943964
+# pid: 40130
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 25496
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.967415
+# pid: 41496
+# status: 0
+
+*Dump score:      22101.0
+Count score:      25496.0
+Count score:      28300.0
+
+>>>> Results of 1 copy
+>>>> score: 908.84404799974
+>>>> time: 29.558436
+>>>> iterations: 2
+
+
+########################################################
+File Copy 1024 bufsize 2000 maxblocks -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/fstime" -c -t 30 -d "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/tmp" -b 1024 -m 2000 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+Write done: 32000 in 2.2724, score 3520
+Read done: 11880552 in 2.0004, score 1484746
+Copy done: 984940 in 30.0001, score 8207
+
+# COUNT0: 8207
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 46.537352
+# pid: 42897
+# status: 0
+
+#### Pass 2
+
+Write done: 56000 in 2.2868, score 6122
+Read done: 3302988 in 2.6015, score 317410
+Copy done: 584604 in 31.1651, score 4689
+
+# COUNT0: 4689
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 31.2
+# elapsed: 49.752187
+# pid: 45277
+# status: 0
+
+#### Pass 3
+
+Write done: 64000 in 2.0814, score 7687
+Read done: 11689688 in 2.0007, score 1460671
+Copy done: 819732 in 30.0163, score 6827
+
+# COUNT0: 6827
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.174160
+# pid: 47065
+# status: 0
+
+*Dump score:       4689.0
+Count score:       6827.0
+Count score:       8207.0
+
+>>>> Results of 1 copy
+>>>> score: 7485.26479157552
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 256 bufsize 500 maxblocks -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/fstime" -c -t 30 -d "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/tmp" -b 256 -m 500 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+Write done: 16000 in 2.0872, score 1916
+Read done: 3153414 in 2.0007, score 394044
+Copy done: 236811 in 30.0001, score 1973
+
+# COUNT0: 1973
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.515842
+# pid: 49268
+# status: 0
+
+#### Pass 2
+
+Write done: 16000 in 2.1893, score 1827
+Read done: 3421097 in 2.0006, score 427504
+Copy done: 230537 in 30.0002, score 1921
+
+# COUNT0: 1921
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 46.315845
+# pid: 51744
+# status: 0
+
+#### Pass 3
+
+Write done: 18000 in 2.1504, score 2092
+Read done: 3446559 in 2.0023, score 430320
+Copy done: 182200 in 30.0003, score 1518
+
+# COUNT0: 1518
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.165553
+# pid: 54214
+# status: 0
+
+*Dump score:       1518.0
+Count score:       1921.0
+Count score:       1973.0
+
+>>>> Results of 1 copy
+>>>> score: 1946.82639184905
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 4096 bufsize 8000 maxblocks -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/fstime" -c -t 30 -d "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/tmp" -b 4096 -m 8000 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+Write done: 224000 in 2.1760, score 25734
+Read done: 31537488 in 2.0006, score 3940968
+Copy done: 2914224 in 30.0003, score 24284
+
+# COUNT0: 24284
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.225196
+# pid: 56368
+# status: 0
+
+#### Pass 2
+
+Write done: 256000 in 2.0780, score 30798
+Read done: 31408704 in 2.0004, score 3925218
+Copy done: 3809216 in 30.0002, score 31743
+
+# COUNT0: 31743
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.250579
+# pid: 58335
+# status: 0
+
+#### Pass 3
+
+Write done: 256000 in 2.6646, score 24018
+Read done: 33680048 in 2.0004, score 4209164
+Copy done: 3832928 in 30.0002, score 31940
+
+# COUNT0: 31940
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.730113
+# pid: 60899
+# status: 0
+
+*Dump score:      24284.0
+Count score:      31743.0
+Count score:      31940.0
+
+>>>> Results of 1 copy
+>>>> score: 31841.3476473594
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+Pipe Throughput -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/pipe" 10 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 8422544
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.080656
+# pid: 63515
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 7812701
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.284304
+# pid: 63524
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 7746148
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.480513
+# pid: 63533
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 8118105
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.032918
+# pid: 63542
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 8527687
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.175757
+# pid: 63551
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 8170398
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.029829
+# pid: 63562
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 8021548
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006450
+# pid: 63571
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 8020378
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.032178
+# pid: 63580
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 8321670
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.005487
+# pid: 63589
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 7786556
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004501
+# pid: 63598
+# status: 0
+
+*Dump score:    7746148.0
+*Dump score:    7786556.0
+*Dump score:    7812701.0
+Count score:    8020378.0
+Count score:    8021548.0
+Count score:    8118105.0
+Count score:    8170398.0
+Count score:    8321670.0
+Count score:    8422544.0
+Count score:    8527687.0
+
+>>>> Results of 1 copy
+>>>> score: 818450.283874979
+>>>> time: 10.0518964285714
+>>>> iterations: 7
+
+
+########################################################
+Pipe-based Context Switching -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/context1" 10 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 1600613
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.075022
+# pid: 63611
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 1576137
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.382888
+# pid: 63622
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 1772843
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.032846
+# pid: 63632
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 1795103
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004486
+# pid: 63642
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 1776645
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004363
+# pid: 63654
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 1760325
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004697
+# pid: 63665
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 1461197
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004483
+# pid: 63675
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 1759758
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004308
+# pid: 63685
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 1816724
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.028327
+# pid: 63697
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 1726308
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004539
+# pid: 63709
+# status: 0
+
+*Dump score:    1461197.0
+*Dump score:    1576137.0
+*Dump score:    1600613.0
+Count score:    1726308.0
+Count score:    1759758.0
+Count score:    1760325.0
+Count score:    1772843.0
+Count score:    1776645.0
+Count score:    1795103.0
+Count score:    1816724.0
+
+>>>> Results of 1 copy
+>>>> score: 177021.867057781
+>>>> time: 10.011938
+>>>> iterations: 7
+
+
+########################################################
+Process Creation -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/spawn" 30 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 199650
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.075056
+# pid: 63720
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 242484
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.005361
+# pid: 2441
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 240042
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.004016
+# pid: 114574
+# status: 0
+
+*Dump score:     199650.0
+Count score:     240042.0
+Count score:     242484.0
+
+>>>> Results of 1 copy
+>>>> score: 8040.74037900435
+>>>> time: 30.0046885
+>>>> iterations: 2
+
+
+########################################################
+System Call Overhead -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/syscall" 10 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 7655147
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.042948
+# pid: 93760
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 7697358
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004228
+# pid: 93769
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 7694570
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004830
+# pid: 93778
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 7682461
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004374
+# pid: 93787
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 7254427
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004257
+# pid: 93796
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 7271417
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004502
+# pid: 93807
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 6900580
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004792
+# pid: 93816
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 6859255
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.005507
+# pid: 93826
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 7026896
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004183
+# pid: 93835
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 7363665
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.005102
+# pid: 93844
+# status: 0
+
+*Dump score:    6859255.0
+*Dump score:    6900580.0
+*Dump score:    7026896.0
+Count score:    7254427.0
+Count score:    7271417.0
+Count score:    7363665.0
+Count score:    7655147.0
+Count score:    7682461.0
+Count score:    7694570.0
+Count score:    7697358.0
+
+>>>> Results of 1 copy
+>>>> score: 750696.284674533
+>>>> time: 10.0100344285714
+>>>> iterations: 7
+
+
+########################################################
+Shell Scripts (1 concurrent) -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/looper" 60 "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/multi.sh" 1 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 1495
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.124363
+# pid: 93856
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 1374
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.041479
+# pid: 110652
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 1361
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.040381
+# pid: 126072
+# status: 0
+
+*Dump score:       1361.0
+Count score:       1374.0
+Count score:       1495.0
+
+>>>> Results of 1 copy
+>>>> score: 1431.24597435133
+>>>> time: 60.082921
+>>>> iterations: 2
+
+
+########################################################
+Shell Scripts (8 concurrent) -- 1 copy
+==> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/looper" 60 "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/pgms/multi.sh" 8 2>&1 >> "/mnt/hgfs/vmshared/KERNBENCH/unixbench-5.1.2/results/irakatz-virtual-machine-2020-09-05-01.log"
+
+#### Pass 1
+
+
+# COUNT0: 237
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.747893
+# pid: 11081
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 142
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.036506
+# pid: 29970
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 259
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.184905
+# pid: 41344
+# status: 0
+
+*Dump score:        142.0
+Count score:        237.0
+Count score:        259.0
+
+>>>> Results of 1 copy
+>>>> score: 245.847562127508
+>>>> time: 60.466399
+>>>> iterations: 2
+
