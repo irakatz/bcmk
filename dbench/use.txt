@@ -1,1 +1,5 @@
+已经放在这里了，dbench里面是下载好的，按这个地址来做
 http://dbench.samba.org/web/download.html
+第一步要预装apt-get install autoconf
+configure时少了什么装什么
+使用 -c来规定client的地方，可能和它的默认地方不一样
