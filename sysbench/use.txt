@@ -1,0 +1,6 @@
+安装：
+	 apt install sysbench
+测试CPU：
+	sysbench --num-threads=4 --test=cpu --cpu-max-prime=20000 run
+测试读写：
+	sysbench --threads=4  --memory-block-size=64k --memory-total-size=10G memory run
