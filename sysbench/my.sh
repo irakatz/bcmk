@@ -1,5 +1,5 @@
 #! /bin/bash
-sysbench --num-threads=16 --max-requests=20000 --cpu-max-prime=50000 --test=cpu run >> ./cpu/cputest.txt
+sysbench --num-threads=16 --max-requests=20000 --test=cpu run >> ./cpu/cputest.txt
 sysbench --num-threads=16 --test=fileio --file-total-size=3G --file-test-mode=rndrw prepare
 sysbench --num-threads=16 --test=fileio --file-total-size=3G --file-test-mode=rndrw run >> ./fileio/fileiotest.txt
 sysbench --num-threads=16 --test=fileio --file-total-size=3G --file-test-mode=rndrw cleanup
