@@ -5,7 +5,7 @@ echo $starttime
 
 for i in {1..10}  
 do  
-echo $i >> ./benchsh/benchtest.txt
-wget -qO- bench.sh | bash >> ./benchsh/benchtest.txt
-echo >> >> ./benchsh/benchtest.txt
+echo $i >> ./result/benchtest.txt
+wget -qO- bench.sh | bash >> ./result/benchtest.txt
+echo >> >> ./result/benchtest.txt
 done  
